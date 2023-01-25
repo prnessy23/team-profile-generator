@@ -8,7 +8,7 @@ test('creates an Engineer object', () => {
 
 });
 test('gets engineer github value', () => {
-    const (engineer)= new Engineer('Peter', 007, 'peter.wolfe@gmail.com', "wolfie23");
+    const engineer= new Engineer('Peter', 007, 'peter.wolfe@gmail.com', "wolfie23");
 
     expect(engineer.getGithud()).toEqual(expect.stringContaining(engineer.github.toString()));
 });

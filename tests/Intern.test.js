@@ -9,7 +9,7 @@ test('creates an Intern object', () => {
 
 });
 test('gets employee school', () => {
-    const (intern)= new Intern('Peter', 007, 'peter.wolfe@gmail.com', "Boston College");
+    const intern= new Intern('Peter', 007, 'peter.wolfe@gmail.com', "Boston College");
 
     expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
