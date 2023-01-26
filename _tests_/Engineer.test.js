@@ -2,19 +2,19 @@
 const Engineer = require('../lib/Engineer');
 
 test('creates an Engineer object', () => {
-    const engineer = new Engineer('Peter', '007', 'peter.wolfe@gmail', "wolfie23");
+    const engineer = new Engineer("Peter", "007", "peter.wolfe@gmail", "wolfie23");
 
-    expect(engineer.github).toEqual(expect.any(String));
+    expect(typeof github).toBe("object");
 
 });
-test('gets engineer github value', () => {
-    const engineer= new Engineer('Peter', 007, 'peter.wolfe@gmail.com', "wolfie23");
+test('gets github from constructor', () => {
+    const engineer= new Engineer("Peter", "007", "peter.wolfe@gmail.com", "wolfie23");
 
-    expect(engineer.getGithud()).toEqual(expect.stringContaining(engineer.github.toString()));
+    expect(engineer.name).toBe("wolfie23");
 });
 test ('gets role of employee',() => {
-    const engineer =new Engineer('Peter', 007,
-    "peter.wolfe@gmail.com",'wolfie23');
-    expect(engineer.getRole()).toEqual("Engineer");
+    const engineer =new Engineer("Peter", "007",
+    "peter.wolfe@gmail.com","wolfie23");
+    expect(engineer.getRole()).toBe("Engineer");
 
 });
