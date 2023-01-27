@@ -40,10 +40,10 @@ function createTeam(team) {
     </div>
     `;
   }
-  function createEng(engineers)
+  function createEng(engineers){}
   function createInterns(interns) {}
 
-  function createManagers(managers) {}
+  function createManagers(managers){} 
 
   const currentEmp = [];
   currentEmp.push(

@@ -1,8 +1,9 @@
+
 {
     box-sizing: border-box;
 }
 :root {
-    --primary: lightslategrey;
+    --primary: slategrey;
     --secondary: white;
 }
 body{
@@ -20,7 +21,7 @@ body{
 }
 .card-header {
     background-color: var(--primary);
-    color var(--secondary);
+    color: var(--secondary);
 }
 .card-body {
     background-color: var(--secondary);

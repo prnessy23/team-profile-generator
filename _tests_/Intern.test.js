@@ -3,16 +3,15 @@
 const Intern = require('../lib/Intern');
 
 test('creates an Intern object', () => {
-    const intern = new Intern("Peter", "007", "peter.wolfe@gmail", "Boston College");
+    const intern = new Intern();
 
-    expect(intern.school).toBe("object");
+    expect(typeof Intern).toBe("object");
 
 });
 test('gets employee school from constructor', () => {
     const intern= new Intern("Peter", "007", "peter.wolfe@gmail.com", "Boston College");
 
-    expect(intern.school)
-    .toBe("object");
+    expect(intern.schoolName).toBe("Boston College");
 });
 test ('gets role from getRole',() => {
     const intern =new Intern("Peter", "007","peter.wolfe@gmail.com","Boston College");
