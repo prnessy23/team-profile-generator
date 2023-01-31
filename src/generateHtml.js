@@ -23,7 +23,7 @@ module.exports = (team) => {
     <main>
     
     class="container">
-    <div class="row justify-content-space around" id="team-cards"></
+    <div class="row justify-content-center" id="team-cards"></
     div>
         ${createTeam(team)}
         </main>
