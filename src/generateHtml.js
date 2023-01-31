@@ -12,8 +12,8 @@ module.exports = (team) => {
         <title>Team Profile</title>
     </head>
   
-    <body 
-    </header>
+    <body>
+    <header>
     <nav class ="navbar" id="navbar">
         <span class="navbar-brand mb-0 h-1 w-100 text-center" id="navbar
                       text">Team Profiles</span>
@@ -22,9 +22,9 @@ module.exports = (team) => {
 
     <main>
     
-    class="container">
-    <div class="row justify-content-center" id="team-cards"></
-    div>
+    <div class="container">
+    <div class="row justify-content-center" id="team-cards"></div>
+    </div>
         ${createTeam(team)}
         </main>
     </body>
