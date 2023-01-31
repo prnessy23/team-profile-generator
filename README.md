@@ -1,27 +1,47 @@
-#Team Profile        Generator
-HTML generator using node.js
+# Team Profile Generator
+____
 
-##
-User Story
-AS A manager
-I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to their emails and GitHub profiles
-Acceptance Criteria
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
+### Description
+This application was created using the Inquirer module from Node.js to generate a team profile and to display the information on a newly created html page with attendant css styling. 
+The project also incorporates the use of Jest to demonstrate OOP and TDD.
+____
+###Installation
+
+A cloned repository from Github is used as the basis along with Node.js. Inquire module is also required. Jest is used as a testing framework.
+___
+
+
+
+
+### Video Link
+______
+### https://app.castify.com/watch/5d9d24b3-6265-45eb-aeb4-8667fc5152f8
+
+##Screenshot
+____
+
+![Alt text](images/Screenshot%202023-01-30%20at%209.58.43%20PM.png)
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
 
