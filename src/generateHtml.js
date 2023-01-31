@@ -24,8 +24,9 @@ module.exports = (team) => {
     
     <div class="container">
     <div class="row justify-content-center" id="team-cards"></div>
-    </div>
+    
         ${createTeam(team)}
+
         </main>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -39,7 +40,7 @@ function createTeam(team) {
   function createManagers(managers) {
     return `
     <div class ="col-4 mt-4">
-    <div class="card h-50">
+    <div class="card h-30">
     <div class="card-header">
         <h3>${managers.getName()}</h3>
         <h4>Manager</h4><i class="material-icons">pending-actions</i>
@@ -59,7 +60,7 @@ function createTeam(team) {
   function createEng(engineers) {
     return `
     <div class ="col-4 mt-4">
-    <div class="card h-50">
+    <div class="card h-30">
         <div class="card-header">
             <h3>${engineers.getName()}</h3>
                 <h4>Engineer</h4><i class="material-icons">devices</i>
@@ -74,7 +75,7 @@ function createTeam(team) {
   }
   function createInterns(interns) {
     return ` <div class ="col-4 mt-4">
-    <div class="card h-50">
+    <div class="card h-30">
         <div class="card-header">
         <h3>${interns.getName()}</h3>
         <h4>Intern</h4><i class="material-icons">assignment_ind</i>
