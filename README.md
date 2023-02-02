@@ -15,7 +15,7 @@ ___
 
 ### Video Link
 ______
-### https://app.castify.com/watch/5d9d24b3-6265-45eb-aeb4-8667fc5152f8
+The video of the generator in action can be seen here [screencastify.](https://watch.screencastify.com/v/8Ow9ygx42VWUKF0L07Y8)
 
 ##Screenshot
 ____
